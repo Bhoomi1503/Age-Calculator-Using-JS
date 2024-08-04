@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: khaki;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: lavender;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: lightcyan;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lavenderblush;
+    color: black;
+}
+
+.output {
+    margin-top: 10px;
+}
